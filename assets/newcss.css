@@ -494,9 +494,8 @@ img {
 .skills__c {
   width: 90%;
 }
-.skills__java {
-  width: 60%;
-}
+
+.skills__java { width: 80%; }
 .skills__python {
   width: 65%;
 }
@@ -508,7 +507,7 @@ img {
   width: 80%;
 }
 .skills__oop {
-  width: 70%;
+  width: 80%;
 }
 .skills__os {
   width: 70%;
@@ -518,7 +517,7 @@ img {
 }
 
 .skills__html {
-  width: 85%;
+  width: 80%;
 }
 .skills__css {
   width: 75%;
@@ -541,7 +540,6 @@ img {
   transform: rotate(-180deg);
 }
 
-.skills__dart { width: 90%; }
 .skills__flutter { width: 90%; }
 .skills__bloc { width: 80%; }
 .skills__cubit { width: 90%; }
@@ -550,6 +548,11 @@ img {
 .skills__api { width: 90%; }
 .skills__database { width: 85%; }
 .skills__notifications { width: 75%; }
+
+.skills__dart {
+  width: 90% !important;
+  display: block;
+}
 
 /*==================== Qualifications ====================*/
 
