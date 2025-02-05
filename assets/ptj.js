@@ -86,20 +86,37 @@ modalCloses.forEach((modalClose) => {
 })
 
 /*======================= Portfolio Swiper ===================*/
-var swiper = new Swiper('.portfolio__container',{
-    cssMode: true,
-    loop: true,
+// var swiper = new Swiper('.portfolio__container',{
+//     cssMode: true,
+//     loop: true,
 
+//     navigation: {
+//         nextEl:'.swiper-button-next',
+//         prevEl:'.swiper-button-prev',
+//     },
+//     pagination:{
+//         el:'.swiper-pagination',
+//         clickable: true,
+//     },
+
+// });
+var swiper = new Swiper(".swiper-container", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: false, // Set this to false if you don't want infinite scrolling
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
     navigation: {
-        nextEl:'.swiper-button-next',
-        prevEl:'.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
-    pagination:{
-        el:'.swiper-pagination',
-        clickable: true,
-    },
+  });
 
-});
+
+
+
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')

@@ -541,6 +541,16 @@ img {
   transform: rotate(-180deg);
 }
 
+.skills__dart { width: 90%; }
+.skills__flutter { width: 90%; }
+.skills__bloc { width: 80%; }
+.skills__cubit { width: 90%; }
+.skills__provider { width: 80%; }
+.skills__firebase { width: 85%; }
+.skills__api { width: 90%; }
+.skills__database { width: 85%; }
+.skills__notifications { width: 75%; }
+
 /*==================== Qualifications ====================*/
 
 .qualification__tabs {
